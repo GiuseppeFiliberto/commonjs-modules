@@ -1,7 +1,22 @@
 const fullName = require('./names.js')
 const getHobbies = require('./hobbies.js')
 
-// console.log(fullName())
-// console.log(getHobbies());
+console.log(fullName("John", "Mayer"))
+console.log(getHobbies("Playing Guitar", "Fishing", "Cooking"));
 
 
+
+function personInfo() {
+
+    const name = fullName('John', 'Mayer');
+  
+    const hobbies = getHobbies('Playing', 'Fishing', 'Cooking');
+  
+    const info = { name, hobbies };
+  
+    return info;
+  
+  }
+
+
+  
