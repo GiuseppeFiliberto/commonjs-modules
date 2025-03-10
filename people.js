@@ -19,4 +19,5 @@ function personInfo() {
   }
 
 
-  
+const person = personInfo();
+console.log(person);
