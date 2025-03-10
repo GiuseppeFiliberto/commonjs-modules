@@ -6,3 +6,5 @@ function fullName(firstName, lastName) {
   
     return user
   }
+
+  module.exports = fullName
